@@ -11,14 +11,5 @@
   ],
   "dependencies": {
     "at.innerspace.dtvalidator": "1.0.6"
-  },
-  "scopedRegistries": [
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "at.innerspace.dtvalidator"
-      ]
-    }
-  ]
+  }
 }
