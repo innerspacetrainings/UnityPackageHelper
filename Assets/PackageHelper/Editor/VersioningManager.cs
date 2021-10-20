@@ -1,12 +1,12 @@
-using Editor.PackageHandler;
+using PackageHelper.Editor.PackageHandler;
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor
+namespace PackageHelper.Editor
 {
     public class VersionManager : EditorWindow
     {
-        internal const string PackageJson = "Assets/Package/package.json";
+        internal static string PackageJson => "Assets/" + PlayerSettings.productName + "/package.json";
         private PackageReader reader;
         private string currentVersion;
 
@@ -37,6 +37,7 @@ namespace Editor
             {
                 PlayerPrefs.DeleteAll();
             }
+
             EditorGUILayout.EndHorizontal();
 
             EditorGUILayout.BeginHorizontal();
@@ -44,6 +45,7 @@ namespace Editor
             {
                 EditorPrefs.DeleteAll();
             }
+
             EditorGUILayout.EndHorizontal();
         }
 
@@ -65,9 +67,10 @@ namespace Editor
                 PlayerSettings.bundleVersion = currentVersion;
                 AssetDatabase.SaveAssets();
             }
+
             EditorGUI.EndDisabledGroup();
 
             EditorGUILayout.EndFadeGroup();
         }
     }
-} 
+}

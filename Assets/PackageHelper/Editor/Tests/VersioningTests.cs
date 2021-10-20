@@ -1,10 +1,10 @@
 using System.IO;
 using Blue.Json;
-using Editor.PackageHandler;
 using NUnit.Framework;
+using PackageHelper.Editor.PackageHandler;
 using UnityEditor;
 
-namespace Editor.Tests
+namespace PackageHelper.Editor.Tests
 {
     public class VersioningTests
     {

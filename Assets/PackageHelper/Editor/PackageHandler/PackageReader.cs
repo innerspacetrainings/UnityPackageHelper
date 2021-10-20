@@ -1,15 +1,15 @@
 using System.IO;
 using Blue.Json;
 using UnityEngine;
-using Obj = System.Collections.Generic.Dictionary<string, object>;
 
-namespace Editor.PackageHandler
+namespace PackageHelper.Editor.PackageHandler
 {
     public class PackageReader
     {
         private readonly string packageAddress;
         private readonly JsonDictionary package;
 
+        public string PackageName => package.Get<string>("");
         public string PackageVersion => package.Get<string>("version");
 
         public PackageReader(string packageJson)

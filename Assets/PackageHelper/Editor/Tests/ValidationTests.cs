@@ -2,7 +2,7 @@ using DTValidator;
 using DTValidator.ValidationErrors;
 using NUnit.Framework;
 
-namespace Editor.Tests
+namespace PackageHelper.Editor.Tests
 {
     public static class ValidationTests
     {
