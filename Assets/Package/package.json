@@ -1,11 +1,24 @@
 {
-  "name": "eu.innerspace.packagename",
+  "name": "eu.innerspace.packagehelper",
   "version": "0.1.0",
-  "displayName": "PackageName",
-  "description": "Package Description",
+  "displayName": "PackageHelper",
+  "description": "Package helper scripts",
   "unity": "2020.3",
   "unityRelease": "15f2",
   "keywords": [
+    "package",
+    "helper"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "at.innerspace.dtvalidator": "1.0.6"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "at.innerspace.dtvalidator"
+      ]
+    }
+  ]
 }
