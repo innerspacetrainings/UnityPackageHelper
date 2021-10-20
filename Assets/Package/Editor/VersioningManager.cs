@@ -6,7 +6,7 @@ namespace PackageHelper.Editor
 {
     public class VersionManager : EditorWindow
     {
-        internal static string PackageJson => "Assets/" + PlayerSettings.productName + "/package.json";
+        internal static string PackageJson => "Assets/Package/package.json";
         private PackageReader reader;
         private string currentVersion;
 
