@@ -1,0 +1,11 @@
+{
+  "name": "eu.innerspace.packagename",
+  "version": "0.1.0",
+  "displayName": "PackageName",
+  "description": "Package Description",
+  "unity": "2020.3",
+  "unityRelease": "15f2",
+  "keywords": [
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,38 @@
+name: Create Tag
+
+on:
+  push:
+    branches:
+      - develop
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create tag
+        id: Createtag
+        uses: ButlerLogic/action-autotag@stable
+        with:
+          tag_prefix: "v"
+          strategy: package
+          root: "Assets/Package"
+      - name: Changelog
+        uses: innerspacetrainings/generate-release-changelog@master
+        id: Changelog
+        env:
+          REPO: ${{ github.repository }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.Createtag.outputs.version }}
+          name: Release v${{ steps.Createtag.outputs.version }}
+          body: |
+            ## Changelog
+            ${{ steps.Changelog.outputs.changelog }}
+          draft: false
+          prerelease: false  
+    

@@ -1,0 +1,1380 @@
+<StyleCopSettings Version="105">
+  <Parsers>
+    <Parser ParserId="StyleCop.CSharp.CsParser">
+      <ParserSettings>
+        <CollectionProperty Name="GeneratedFileFilters">
+          <Value>[^a-z ]DOTweenModuleAudio.cs</Value>
+          <Value>[^a-z ]DOTweenModulePhysics.cs</Value>
+          <Value>[^a-z ]DOTweenModulePhysics2D.cs</Value>
+          <Value>[^a-z ]DOTweenModuleSprite.cs</Value>
+          <Value>[^a-z ]DOTweenModuleUI.cs</Value>
+          <Value>[^a-z ]DOTweenModuleUnityVersion.cs</Value>
+          <Value>[^a-z ]DOTweenModuleUtils.cs</Value>
+          <Value>[^a-z ]SteamVR_Editor.cs</Value>
+          <Value>[^a-z ]SteamVR_Preferences.cs</Value>
+          <Value>[^a-z ]SteamVR_RenderModelEditor.cs</Value>
+          <Value>[^a-z ]SteamVR_Settings.cs</Value>
+          <Value>[^a-z ]SteamVR_SkyboxEditor.cs</Value>
+          <Value>[^a-z ]SteamVR_Update.cs</Value>
+          <Value>[^a-z ]SteamVR_GazeTracker.cs</Value>
+          <Value>[^a-z ]SteamVR_LaserPointer.cs</Value>
+          <Value>[^a-z ]SteamVR_Teleporter.cs</Value>
+          <Value>[^a-z ]SteamVR_TestThrow.cs</Value>
+          <Value>[^a-z ]SteamVR_TestTrackedCamera.cs</Value>
+          <Value>[^a-z ]SteamVR_TrackedController.cs</Value>
+          <Value>[^a-z ]BodyCollider.cs</Value>
+          <Value>[^a-z ]CircularDrive.cs</Value>
+          <Value>[^a-z ]ComplexThrowable.cs</Value>
+          <Value>[^a-z ]ControllerHoverHighlight.cs</Value>
+          <Value>[^a-z ]CustomEvents.cs</Value>
+          <Value>[^a-z ]DebugUI.cs</Value>
+          <Value>[^a-z ]DestroyOnDetachedFromHand.cs</Value>
+          <Value>[^a-z ]DestroyOnParticleSystemDeath.cs</Value>
+          <Value>[^a-z ]DestroyOnTriggerEnter.cs</Value>
+          <Value>[^a-z ]DistanceHaptics.cs</Value>
+          <Value>[^a-z ]DontDestroyOnLoad.cs</Value>
+          <Value>[^a-z ]EnumFlags.cs</Value>
+          <Value>[^a-z ]FallbackCameraController.cs</Value>
+          <Value>[^a-z ]Hand.cs</Value>
+          <Value>[^a-z ]HapticRack.cs</Value>
+          <Value>[^a-z ]HideOnHandFocusLost.cs</Value>
+          <Value>[^a-z ]IgnoreHovering.cs</Value>
+          <Value>[^a-z ]InputModule.cs</Value>
+          <Value>[^a-z ]Interactable.cs</Value>
+          <Value>[^a-z ]InteractableButtonEvents.cs</Value>
+          <Value>[^a-z ]InteractableHoverEvents.cs</Value>
+          <Value>[^a-z ]ItemPackage.cs</Value>
+          <Value>[^a-z ]ItemPackageReference.cs</Value>
+          <Value>[^a-z ]ItemPackageSpawner.cs</Value>
+          <Value>[^a-z ]LinearAnimation.cs</Value>
+          <Value>[^a-z ]LinearAnimator.cs</Value>
+          <Value>[^a-z ]LinearAudioPitch.cs</Value>
+          <Value>[^a-z ]LinearBlendshape.cs</Value>
+          <Value>[^a-z ]LinearDisplacement.cs</Value>
+          <Value>[^a-z ]LinearDrive.cs</Value>
+          <Value>[^a-z ]LinearMapping.cs</Value>
+          <Value>[^a-z ]Player.cs</Value>
+          <Value>[^a-z ]PlaySound.cs</Value>
+          <Value>[^a-z ]SeeThru.cs</Value>
+          <Value>[^a-z ]SleepOnAwake.cs</Value>
+          <Value>[^a-z ]SoundDeparent.cs</Value>
+          <Value>[^a-z ]SoundPlayOneshot.cs</Value>
+          <Value>[^a-z ]SpawnAndAttachAfterControllerIsTracking.cs</Value>
+          <Value>[^a-z ]SpawnAndAttachToHand.cs</Value>
+          <Value>[^a-z ]SpawnRenderModel.cs</Value>
+          <Value>[^a-z ]Throwable.cs</Value>
+          <Value>[^a-z ]UIElement.cs</Value>
+          <Value>[^a-z ]Unparent.cs</Value>
+          <Value>[^a-z ]Util.cs</Value>
+          <Value>[^a-z ]VelocityEstimator.cs</Value>
+          <Value>[^a-z ]ControllerButtonHints.cs</Value>
+          <Value>[^a-z ]ArcheryTarget.cs</Value>
+          <Value>[^a-z ]Arrow.cs</Value>
+          <Value>[^a-z ]ArrowHand.cs</Value>
+          <Value>[^a-z ]ArrowheadRotation.cs</Value>
+          <Value>[^a-z ]Balloon.cs</Value>
+          <Value>[^a-z ]BalloonColliders.cs</Value>
+          <Value>[^a-z ]BalloonHapticBump.cs</Value>
+          <Value>[^a-z ]BalloonSpawner.cs</Value>
+          <Value>[^a-z ]ExplosionWobble.cs</Value>
+          <Value>[^a-z ]FireSource.cs</Value>
+          <Value>[^a-z ]Longbow.cs</Value>
+          <Value>[^a-z ]SoundBowClick.cs</Value>
+          <Value>[^a-z ]AllowTeleportWhileAttachedToHand.cs</Value>
+          <Value>[^a-z ]ChaperoneInfo.cs</Value>
+          <Value>[^a-z ]IgnoreTeleportTrace.cs</Value>
+          <Value>[^a-z ]Teleport.cs</Value>
+          <Value>[^a-z ]TeleportArc.cs</Value>
+          <Value>[^a-z ]TeleportArea.cs</Value>
+          <Value>[^a-z ]TeleportMarkerBase.cs</Value>
+          <Value>[^a-z ]TeleportPoint.cs</Value>
+          <Value>[^a-z ]openvr_api.cs</Value>
+          <Value>[^a-z ]SteamVR.cs</Value>
+          <Value>[^a-z ]SteamVR_Camera.cs</Value>
+          <Value>[^a-z ]SteamVR_CameraFlip.cs</Value>
+          <Value>[^a-z ]SteamVR_CameraMask.cs</Value>
+          <Value>[^a-z ]SteamVR_Controller.cs</Value>
+          <Value>[^a-z ]SteamVR_ControllerManager.cs</Value>
+          <Value>[^a-z ]SteamVR_Ears.cs</Value>
+          <Value>[^a-z ]SteamVR_Events.cs</Value>
+          <Value>[^a-z ]SteamVR_ExternalCamera.cs</Value>
+          <Value>[^a-z ]SteamVR_Fade.cs</Value>
+          <Value>[^a-z ]SteamVR_Frustum.cs</Value>
+          <Value>[^a-z ]SteamVR_GameView.cs</Value>
+          <Value>[^a-z ]SteamVR_IK.cs</Value>
+          <Value>[^a-z ]SteamVR_LoadLevel.cs</Value>
+          <Value>[^a-z ]SteamVR_Menu.cs</Value>
+          <Value>[^a-z ]SteamVR_Overlay.cs</Value>
+          <Value>[^a-z ]SteamVR_PlayArea.cs</Value>
+          <Value>[^a-z ]SteamVR_Render.cs</Value>
+          <Value>[^a-z ]SteamVR_RenderModel.cs</Value>
+          <Value>[^a-z ]SteamVR_Skybox.cs</Value>
+          <Value>[^a-z ]SteamVR_SphericalProjection.cs</Value>
+          <Value>[^a-z ]SteamVR_Stats.cs</Value>
+          <Value>[^a-z ]SteamVR_TestController.cs</Value>
+          <Value>[^a-z ]SteamVR_TrackedCamera.cs</Value>
+          <Value>[^a-z ]SteamVR_TrackedObject.cs</Value>
+          <Value>[^a-z ]SteamVR_UpdatePoses.cs</Value>
+          <Value>[^a-z ]SteamVR_Utils.cs</Value>
+          <Value>[^a-z ]VRTK_AvatarHandController.cs</Value>
+          <Value>[^a-z ]VRTK_ConsoleViewer.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerRigidbodyActivator.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerTooltips.cs</Value>
+          <Value>[^a-z ]VRTK_DesktopCamera.cs</Value>
+          <Value>[^a-z ]VRTK_DestinationPoint.cs</Value>
+          <Value>[^a-z ]VRTK_FramesPerSecondViewer.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectTooltip.cs</Value>
+          <Value>[^a-z ]VRTK_PanelMenuController.cs</Value>
+          <Value>[^a-z ]VRTK_PanelMenuItemController.cs</Value>
+          <Value>[^a-z ]VRTK_PointerDirectionIndicator.cs</Value>
+          <Value>[^a-z ]RadialButtonIcon.cs</Value>
+          <Value>[^a-z ]UICircle.cs</Value>
+          <Value>[^a-z ]VRTK_IndependentRadialMenuController.cs</Value>
+          <Value>[^a-z ]VRTK_RadialMenu.cs</Value>
+          <Value>[^a-z ]VRTK_RadialMenuController.cs</Value>
+          <Value>[^a-z ]VRTK_SDKSetupSwitcher.cs</Value>
+          <Value>[^a-z ]VRTK_SnapDropZone.cs</Value>
+          <Value>[^a-z ]MinMaxRangeDrawer.cs</Value>
+          <Value>[^a-z ]ObsoleteInspectorDrawer.cs</Value>
+          <Value>[^a-z ]SerializedPropertyExtensions.cs</Value>
+          <Value>[^a-z ]Limits2DDrawer.cs</Value>
+          <Value>[^a-z ]Vector3StateDrawer.cs</Value>
+          <Value>[^a-z ]VRTK_AdaptiveQualityEditor.cs</Value>
+          <Value>[^a-z ]VRTK_EditorUtilities.cs</Value>
+          <Value>[^a-z ]VRTK_ExampleSetupInfoEditor.cs</Value>
+          <Value>[^a-z ]VRTK_InteractHapticsEditor.cs</Value>
+          <Value>[^a-z ]VRTK_NavMeshDataEditor.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectSetup.cs</Value>
+          <Value>[^a-z ]VRTK_PolicyListEditor.cs</Value>
+          <Value>[^a-z ]VRTK_RadialMenuEditor.cs</Value>
+          <Value>[^a-z ]VRTK_SDKManagerEditor.cs</Value>
+          <Value>[^a-z ]VRTK_SDKSetupEditor.cs</Value>
+          <Value>[^a-z ]VRTK_SupportInfoWindow.cs</Value>
+          <Value>[^a-z ]VRTK_UpdatePrompt.cs</Value>
+          <Value>[^a-z ]VRTK_ContentHandler.cs</Value>
+          <Value>[^a-z ]VRTK_Button.cs</Value>
+          <Value>[^a-z ]VRTK_Chest.cs</Value>
+          <Value>[^a-z ]VRTK_Control.cs</Value>
+          <Value>[^a-z ]VRTK_Door.cs</Value>
+          <Value>[^a-z ]VRTK_Drawer.cs</Value>
+          <Value>[^a-z ]VRTK_Knob.cs</Value>
+          <Value>[^a-z ]VRTK_Lever.cs</Value>
+          <Value>[^a-z ]VRTK_Slider.cs</Value>
+          <Value>[^a-z ]VRTK_SpringLever.cs</Value>
+          <Value>[^a-z ]VRTK_Wheel.cs</Value>
+          <Value>[^a-z ]VRTK_BaseHighlighter.cs</Value>
+          <Value>[^a-z ]VRTK_MaterialColorSwapHighlighter.cs</Value>
+          <Value>[^a-z ]VRTK_MaterialPropertyBlockColorSwapHighlighter.cs</Value>
+          <Value>[^a-z ]VRTK_OutlineObjectCopyHighlighter.cs</Value>
+          <Value>[^a-z ]VRTK_ArtificialPusher.cs</Value>
+          <Value>[^a-z ]VRTK_ArtificialRotator.cs</Value>
+          <Value>[^a-z ]VRTK_ArtificialSlider.cs</Value>
+          <Value>[^a-z ]VRTK_BasePhysicsControllable.cs</Value>
+          <Value>[^a-z ]VRTK_PhysicsPusher.cs</Value>
+          <Value>[^a-z ]VRTK_PhysicsRotator.cs</Value>
+          <Value>[^a-z ]VRTK_PhysicsSlider.cs</Value>
+          <Value>[^a-z ]VRTK_BaseControllable.cs</Value>
+          <Value>[^a-z ]VRTK_BaseGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_BaseJointGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_ChildOfControllerGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_ClimbableGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_ControlAnimationGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_CustomJointGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_FixedJointGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_MoveTransformGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_RotateTransformGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_RotatorTrackGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_SpringJointGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_TrackObjectGrabAttach.cs</Value>
+          <Value>[^a-z ]VRTK_AxisScaleGrabAction.cs</Value>
+          <Value>[^a-z ]VRTK_BaseGrabAction.cs</Value>
+          <Value>[^a-z ]VRTK_ControlDirectionGrabAction.cs</Value>
+          <Value>[^a-z ]VRTK_SwapControllerGrabAction.cs</Value>
+          <Value>[^a-z ]VRTK_IgnoreInteractTouchColliders.cs</Value>
+          <Value>[^a-z ]VRTK_InteractableListener.cs</Value>
+          <Value>[^a-z ]VRTK_InteractableObject.cs</Value>
+          <Value>[^a-z ]VRTK_InteractControllerAppearance.cs</Value>
+          <Value>[^a-z ]VRTK_InteractHaptics.cs</Value>
+          <Value>[^a-z ]VRTK_InteractObjectAppearance.cs</Value>
+          <Value>[^a-z ]VRTK_InteractObjectHighlighter.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectTouchAutoInteract.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerHighlighter.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerTrackedCollider.cs</Value>
+          <Value>[^a-z ]VRTK_InteractGrab.cs</Value>
+          <Value>[^a-z ]VRTK_InteractNearTouch.cs</Value>
+          <Value>[^a-z ]VRTK_InteractTouch.cs</Value>
+          <Value>[^a-z ]VRTK_InteractUse.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectAutoGrab.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerHaptics.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectAppearance.cs</Value>
+          <Value>[^a-z ]MinMaxRangeAttribute.cs</Value>
+          <Value>[^a-z ]ObsoleteInspectorAttribute.cs</Value>
+          <Value>[^a-z ]Limits2D.cs</Value>
+          <Value>[^a-z ]Vector3State.cs</Value>
+          <Value>[^a-z ]VRTK_CollisionTracker.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerReference.cs</Value>
+          <Value>[^a-z ]VRTK_CurveGenerator.cs</Value>
+          <Value>[^a-z ]VRTK_Defines.cs</Value>
+          <Value>[^a-z ]VRTK_EventSystem.cs</Value>
+          <Value>[^a-z ]VRTK_Logger.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectCache.cs</Value>
+          <Value>[^a-z ]VRTK_PlayerObject.cs</Value>
+          <Value>[^a-z ]VRTK_RoomExtender_PlayAreaGizmo.cs</Value>
+          <Value>[^a-z ]VRTK_ScreenFade.cs</Value>
+          <Value>[^a-z ]VRTK_SDKControllerReady.cs</Value>
+          <Value>[^a-z ]VRTK_TrackedController.cs</Value>
+          <Value>[^a-z ]VRTK_TrackedHeadset.cs</Value>
+          <Value>[^a-z ]VRTK_TunnelEffect.cs</Value>
+          <Value>[^a-z ]VRTK_UIGraphicRaycaster.cs</Value>
+          <Value>[^a-z ]VRTK_VRInputModule.cs</Value>
+          <Value>[^a-z ]VRTK_BaseObjectControlAction.cs</Value>
+          <Value>[^a-z ]VRTK_RotateObjectControlAction.cs</Value>
+          <Value>[^a-z ]VRTK_SlideObjectControlAction.cs</Value>
+          <Value>[^a-z ]VRTK_SnapRotateObjectControlAction.cs</Value>
+          <Value>[^a-z ]VRTK_WarpObjectControlAction.cs</Value>
+          <Value>[^a-z ]VRTK_BasicTeleport.cs</Value>
+          <Value>[^a-z ]VRTK_ButtonControl.cs</Value>
+          <Value>[^a-z ]VRTK_DashTeleport.cs</Value>
+          <Value>[^a-z ]VRTK_DragWorld.cs</Value>
+          <Value>[^a-z ]VRTK_HeightAdjustTeleport.cs</Value>
+          <Value>[^a-z ]VRTK_MoveInPlace.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectControl.cs</Value>
+          <Value>[^a-z ]VRTK_PlayerClimb.cs</Value>
+          <Value>[^a-z ]VRTK_RoomExtender.cs</Value>
+          <Value>[^a-z ]VRTK_SlingshotJump.cs</Value>
+          <Value>[^a-z ]VRTK_StepMultiplier.cs</Value>
+          <Value>[^a-z ]VRTK_TeleportDisableOnControllerObscured.cs</Value>
+          <Value>[^a-z ]VRTK_TeleportDisableOnHeadsetCollision.cs</Value>
+          <Value>[^a-z ]VRTK_TouchpadControl.cs</Value>
+          <Value>[^a-z ]VRTK_TunnelOverlay.cs</Value>
+          <Value>[^a-z ]VRTK_BasePointerRenderer.cs</Value>
+          <Value>[^a-z ]VRTK_BezierPointerRenderer.cs</Value>
+          <Value>[^a-z ]VRTK_StraightPointerRenderer.cs</Value>
+          <Value>[^a-z ]VRTK_DestinationMarker.cs</Value>
+          <Value>[^a-z ]VRTK_PlayAreaCursor.cs</Value>
+          <Value>[^a-z ]VRTK_Pointer.cs</Value>
+          <Value>[^a-z ]VRTK_BodyPhysics.cs</Value>
+          <Value>[^a-z ]VRTK_HeadsetCollision.cs</Value>
+          <Value>[^a-z ]VRTK_HeadsetCollisionFade.cs</Value>
+          <Value>[^a-z ]VRTK_HeadsetControllerAware.cs</Value>
+          <Value>[^a-z ]VRTK_HeadsetFade.cs</Value>
+          <Value>[^a-z ]VRTK_HipTracking.cs</Value>
+          <Value>[^a-z ]VRTK_PositionRewind.cs</Value>
+          <Value>[^a-z ]VRTK_UICanvas.cs</Value>
+          <Value>[^a-z ]VRTK_UIDraggableItem.cs</Value>
+          <Value>[^a-z ]VRTK_UIDropZone.cs</Value>
+          <Value>[^a-z ]VRTK_UIPointer.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerElementHighlighters.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerModelElementPaths.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectFollow.cs</Value>
+          <Value>[^a-z ]VRTK_RigidbodyFollow.cs</Value>
+          <Value>[^a-z ]VRTK_TransformFollow.cs</Value>
+          <Value>[^a-z ]VRTK_SDKInfo.cs</Value>
+          <Value>[^a-z ]VRTK_SDKManager.cs</Value>
+          <Value>[^a-z ]VRTK_SDKSetup.cs</Value>
+          <Value>[^a-z ]VRTK_BaseControllable_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_BasicTeleport_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_BodyPhysics_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_Button_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ControlAnimationGrabAttach_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerEvents_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerRigidbodyActivator_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ControllerTooltips_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_Control_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_DashTeleport_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_DestinationMarker_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_DestinationPoint_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_HeadsetCollision_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_HeadsetControllerAware_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_HeadsetFade_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractableObject_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractControllerAppearance_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractGrab_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractHaptics_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractNearTouch_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractObjectAppearance_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractObjectHighlighter_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractTouch_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_InteractUse_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_MoveTransformGrabAttach_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectAutoGrab_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectControl_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_ObjectTooltip_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_PlayAreaCursor_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_PlayerClimb_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_PointerDirectionIndicator_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_Pointer_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_PositionRewind_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_RotateTransformGrabAttach_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_SDKManager_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_SDKSetup_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_SlingshotJump_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_SnapDropZone_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_UIDraggableItem_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_UIPointer_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_UnityEvents.cs</Value>
+          <Value>[^a-z ]VRTK_AdaptiveQuality.cs</Value>
+          <Value>[^a-z ]VRTK_CustomRaycast.cs</Value>
+          <Value>[^a-z ]VRTK_DeviceFinder.cs</Value>
+          <Value>[^a-z ]VRTK_NavMeshData.cs</Value>
+          <Value>[^a-z ]VRTK_PolicyList.cs</Value>
+          <Value>[^a-z ]VRTK_SDKInputOverride.cs</Value>
+          <Value>[^a-z ]VRTK_SDKObjectAlias.cs</Value>
+          <Value>[^a-z ]VRTK_SDKObjectState.cs</Value>
+          <Value>[^a-z ]VRTK_SDKTransformModify.cs</Value>
+          <Value>[^a-z ]VRTK_SharedMethods.cs</Value>
+          <Value>[^a-z ]VRTK_Simulator.cs</Value>
+          <Value>[^a-z ]VRTK_VelocityEstimator.cs</Value>
+          <Value>[^a-z ]SDK_Base.cs</Value>
+          <Value>[^a-z ]SDK_BaseBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_BaseController.cs</Value>
+          <Value>[^a-z ]SDK_BaseHeadset.cs</Value>
+          <Value>[^a-z ]SDK_BaseSystem.cs</Value>
+          <Value>[^a-z ]SDK_DescriptionAttribute.cs</Value>
+          <Value>[^a-z ]SDK_ScriptingDefineSymbolPredicateAttribute.cs</Value>
+          <Value>[^a-z ]DaydreamReach.cs</Value>
+          <Value>[^a-z ]SDK_DaydreamBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_DaydreamController.cs</Value>
+          <Value>[^a-z ]SDK_DaydreamDefines.cs</Value>
+          <Value>[^a-z ]SDK_DaydreamHeadset.cs</Value>
+          <Value>[^a-z ]SDK_DaydreamSystem.cs</Value>
+          <Value>[^a-z ]SDK_FallbackBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_FallbackController.cs</Value>
+          <Value>[^a-z ]SDK_FallbackHeadset.cs</Value>
+          <Value>[^a-z ]SDK_FallbackSystem.cs</Value>
+          <Value>[^a-z ]SDK_HyperealVRBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_HyperealVRController.cs</Value>
+          <Value>[^a-z ]SDK_HyperealVRDefines.cs</Value>
+          <Value>[^a-z ]SDK_HyperealVRHeadset.cs</Value>
+          <Value>[^a-z ]SDK_HyperealVRSystem.cs</Value>
+          <Value>[^a-z ]SDK_OculusBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_OculusController.cs</Value>
+          <Value>[^a-z ]SDK_OculusDefines.cs</Value>
+          <Value>[^a-z ]SDK_OculusHeadset.cs</Value>
+          <Value>[^a-z ]SDK_OculusSystem.cs</Value>
+          <Value>[^a-z ]SDK_ControllerSim.cs</Value>
+          <Value>[^a-z ]SDK_InputSimulator.cs</Value>
+          <Value>[^a-z ]SDK_SimBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_SimController.cs</Value>
+          <Value>[^a-z ]SDK_SimHeadset.cs</Value>
+          <Value>[^a-z ]SDK_SimSystem.cs</Value>
+          <Value>[^a-z ]SDK_SteamVRBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_SteamVRController.cs</Value>
+          <Value>[^a-z ]SDK_SteamVRDefines.cs</Value>
+          <Value>[^a-z ]SDK_SteamVRHeadset.cs</Value>
+          <Value>[^a-z ]SDK_SteamVRSystem.cs</Value>
+          <Value>[^a-z ]SDK_UnityBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_UnityCameraRig.cs</Value>
+          <Value>[^a-z ]SDK_UnityController.cs</Value>
+          <Value>[^a-z ]SDK_UnityControllerTracker.cs</Value>
+          <Value>[^a-z ]SDK_UnityHeadset.cs</Value>
+          <Value>[^a-z ]SDK_UnityHeadsetTracker.cs</Value>
+          <Value>[^a-z ]SDK_UnitySystem.cs</Value>
+          <Value>[^a-z ]InteractionSourceExtensions.cs</Value>
+          <Value>[^a-z ]WindowsApiChecker.cs</Value>
+          <Value>[^a-z ]WindowsMR_Camera.cs</Value>
+          <Value>[^a-z ]WindowsMR_ControllerManager.cs</Value>
+          <Value>[^a-z ]WindowsMR_TrackedObject.cs</Value>
+          <Value>[^a-z ]SDK_WindowsMRBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_WindowsMRController.cs</Value>
+          <Value>[^a-z ]SDK_WindowsMRDefines.cs</Value>
+          <Value>[^a-z ]SDK_WindowsMRHeadset.cs</Value>
+          <Value>[^a-z ]SDK_WindowsMRSystem.cs</Value>
+          <Value>[^a-z ]SDK_XimmerseBoundaries.cs</Value>
+          <Value>[^a-z ]SDK_XimmerseController.cs</Value>
+          <Value>[^a-z ]SDK_XimmerseDefines.cs</Value>
+          <Value>[^a-z ]SDK_XimmerseHeadset.cs</Value>
+          <Value>[^a-z ]SDK_XimmerseSystem.cs</Value>
+          <Value>[^a-z ]VRTK_SDK_Bridge.cs</Value>
+          <Value>[^a-z ]Extensions.cs</Value>
+          <Value>[^a-z ]IconRenderer.cs</Value>
+          <Value>[^a-z ]LocalizationConfigEditor.cs</Value>
+          <Value>[^a-z ]LocalizationInfoWrapper.cs</Value>
+          <Value>[^a-z ]LocalizationUpdater.cs</Value>
+          <Value>[^a-z ]TranslationsFetcher.cs</Value>
+          <Value>[^a-z ]PersistentStorage.cs</Value>
+          <Value>[^a-z ]SpecializationManager.cs</Value>
+          <Value>[^a-z ]LanguageSourceAssetInspector.cs</Value>
+          <Value>[^a-z ]LanguageSourceInspector.cs</Value>
+          <Value>[^a-z ]LocalizationEditor.cs</Value>
+          <Value>[^a-z ]LocalizationParamsManagerInspector.cs</Value>
+          <Value>[^a-z ]LocalizeDropdownInspector.cs</Value>
+          <Value>[^a-z ]LocalizeInspector.cs</Value>
+          <Value>[^a-z ]ResourceManagerInspector.cs</Value>
+          <Value>[^a-z ]SetLanguageInspector.cs</Value>
+          <Value>[^a-z ]TermsPopup_Drawer.cs</Value>
+          <Value>[^a-z ]LocalizationEditor.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Languages.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Spreadsheet_Google.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Spreadsheet_Local.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Terms.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Terms_Description.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools_Categorize.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools_CharSet.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools_MergeTerms.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools_NoLocalized.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools_ParseTerms.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools_Scenes.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Tools_Script.cs</Value>
+          <Value>[^a-z ]LocalizationEditor_Warnings.cs</Value>
+          <Value>[^a-z ]EditorTools.cs</Value>
+          <Value>[^a-z ]PostProcessBuild_ANDROID.cs</Value>
+          <Value>[^a-z ]PostProcessBuild_IOS.cs</Value>
+          <Value>[^a-z ]PostProcessBuild_UnloadLanguages.cs</Value>
+          <Value>[^a-z ]UpgradeManager.cs</Value>
+          <Value>[^a-z ]GoogleLanguages.cs</Value>
+          <Value>[^a-z ]GoogleTranslation.cs</Value>
+          <Value>[^a-z ]GoogleTranslation_Post.cs</Value>
+          <Value>[^a-z ]GoogleTranslation_Queries.cs</Value>
+          <Value>[^a-z ]SimpleJSON.cs</Value>
+          <Value>[^a-z ]TranslationJob.cs</Value>
+          <Value>[^a-z ]TranslationJob_GET.cs</Value>
+          <Value>[^a-z ]TranslationJob_Main.cs</Value>
+          <Value>[^a-z ]TranslationJob_POST.cs</Value>
+          <Value>[^a-z ]TranslationJob_WEB.cs</Value>
+          <Value>[^a-z ]LanguageSource.cs</Value>
+          <Value>[^a-z ]LanguageSourceAsset.cs</Value>
+          <Value>[^a-z ]LanguageSourceData.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Assets.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Export_CSV.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Export_Google.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Import_CSV.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Import_Google.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Languages.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Misc.cs</Value>
+          <Value>[^a-z ]LanguageSourceData_Terms.cs</Value>
+          <Value>[^a-z ]LocalizationManager.cs</Value>
+          <Value>[^a-z ]LocalizationManager_Language.cs</Value>
+          <Value>[^a-z ]LocalizationManager_Parameters.cs</Value>
+          <Value>[^a-z ]LocalizationManager_RTL.cs</Value>
+          <Value>[^a-z ]LocalizationManager_Sources.cs</Value>
+          <Value>[^a-z ]LocalizationManager_SystemLanguage.cs</Value>
+          <Value>[^a-z ]LocalizationManager_Targets.cs</Value>
+          <Value>[^a-z ]LocalizationManager_Translation.cs</Value>
+          <Value>[^a-z ]ILocalizeTarget.cs</Value>
+          <Value>[^a-z ]ILocalizeTargetDesc.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_2DToolKit_Label.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_2DToolKit_Sprite.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_NGUI_Label.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_NGUI_Sprite.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_NGUI_Texture.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_SVGImporter_Image.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_SVGImporter_Renderer.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_TextMeshPro_Label.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_TextMeshPro_UGUI.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_AudioSource.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_Child.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_GUIText.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_GUITexture.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_MeshRenderer.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_Prefab.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_SpriteRenderer.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityStandard_TextMesh.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityUI_Image.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityUI_RawImage.cs</Value>
+          <Value>[^a-z ]LocalizeTarget_UnityUI_Text.cs</Value>
+          <Value>[^a-z ]AutoChangeCultureInfo.cs</Value>
+          <Value>[^a-z ]CoroutineManager.cs</Value>
+          <Value>[^a-z ]CustomLocalizeCallback.cs</Value>
+          <Value>[^a-z ]HindiFixer.cs</Value>
+          <Value>[^a-z ]I2Utils.cs</Value>
+          <Value>[^a-z ]LocalizationParamsManager.cs</Value>
+          <Value>[^a-z ]LocalizedString.cs</Value>
+          <Value>[^a-z ]RegisterGlobalParameters.cs</Value>
+          <Value>[^a-z ]ResourceManager.cs</Value>
+          <Value>[^a-z ]RTLFixer.cs</Value>
+          <Value>[^a-z ]SetLanguage.cs</Value>
+          <Value>[^a-z ]SetLanguageDropdown.cs</Value>
+          <Value>[^a-z ]StringObfuscator.cs</Value>
+          <Value>[^a-z ]EventCallback.cs</Value>
+          <Value>[^a-z ]LanguageData.cs</Value>
+          <Value>[^a-z ]LocalizationReader.cs</Value>
+          <Value>[^a-z ]Localize.cs</Value>
+          <Value>[^a-z ]LocalizeDropdown.cs</Value>
+          <Value>[^a-z ]TermData.cs</Value>
+          <Value>[^a-z ]DemoGameplay.cs</Value>
+          <Value>[^a-z ]I2Localization.cs</Value>
+          <Value>[^a-z ]I2LocalizationSettings.cs</Value>
+          <Value>[^a-z ]LocalizationConfig.cs</Value>
+          <Value>[^a-z ]LocalizationInfo.cs</Value>
+        </CollectionProperty>
+      </ParserSettings>
+    </Parser>
+  </Parsers>
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <Rules>
+        <Rule Name="NonPrivateReadonlyFieldsMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustBeginWithLowerCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementMustBeginWithLowerCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="InterfaceNamesMustBeginWithI">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ConstFieldNamesMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustNotUseHungarianNotation">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="AccessibleFieldsMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="VariableNamesMustNotBePrefixed">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustNotBeginWithUnderscore">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustNotContainUnderscore">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="StaticReadonlyFieldsMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <CollectionProperty Name="Hungarian">
+          <Value>go</Value>
+          <Value>ic</Value>
+          <Value>t</Value>
+          <Value>is</Value>
+          <Value>on</Value>
+          <Value>to</Value>
+          <Value>in</Value>
+          <Value>ui</Value>
+          <Value>z</Value>
+          <Value>x</Value>
+          <Value>y</Value>
+        </CollectionProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.SpacingRules">
+      <Rules>
+        <Rule Name="ClosingParenthesisMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="KeywordsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CommasMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SemicolonsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SymbolsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationLinesMustBeginWithSingleSpace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SingleLineCommentsMustBeginWithSingleSpace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PreprocessorKeywordsMustNotBePrecededBySpace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OperatorKeywordMustBeFollowedBySpace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningParenthesisMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningSquareBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingSquareBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningCurlyBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingCurlyBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningGenericBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingGenericBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningAttributeBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingAttributeBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="NullableTypeSymbolsMustNotBePrecededBySpace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="MemberAccessSymbolsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="IncrementDecrementSymbolsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="NegativeSignsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PositiveSignsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DereferenceAndAccessOfSymbolsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ColonsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeMustNotContainMultipleWhitespaceInARow">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeMustNotContainSpaceAfterNewKeywordInImplicitlyTypedArrayAllocation">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="TabsMustNotBeUsed">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DoNotSplitNullConditionalOperators">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.MaintainabilityRules">
+      <Rules>
+        <Rule Name="FileMayOnlyContainASingleNamespace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="AccessModifierMustBeDeclared">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldsMustBePrivate">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeAnalysisSuppressionMustHaveJustification">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DebugAssertMustProvideMessageText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DebugFailMustProvideMessageText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileMayOnlyContainASingleClass">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="StatementMustNotUseUnnecessaryParenthesis">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ArithmeticExpressionsMustDeclarePrecedence">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ConditionalExpressionsMustDeclarePrecedence">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="RemoveDelegateParenthesisWhenPossible">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="AttributeConstructorMustNotUseUnnecessaryParenthesis">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="RemoveUnnecessaryCode">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.ReadabilityRules">
+      <Rules>
+        <Rule Name="DoNotUseRegions">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SplitParametersMustStartOnLineAfterDeclaration">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UseBuiltInTypeAlias">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CommaMustBeOnSameLineAsPreviousParameter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ParametersMustBeOnSameLineOrSeparateLines">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CommentsMustContainText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DoNotPrefixCallsWithBaseUnlessLocalImplementationExists">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PrefixLocalCallsWithThis">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PrefixCallsCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningParenthesisMustBeOnDeclarationLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingParenthesisMustBeOnLineOfLastParameter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingParenthesisMustBeOnLineOfOpeningParenthesis">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ParameterListMustFollowDeclaration">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ParameterMustFollowComma">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ParameterMustNotSpanMultipleLines">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="QueryClauseMustFollowPreviousClause">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="QueryClausesMustBeOnSeparateLinesOrAllOnOneLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="QueryClauseMustBeginOnNewLineWhenPreviousClauseSpansMultipleLines">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="QueryClausesSpanningMultipleLinesMustBeginOnOwnLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DoNotPlaceRegionsWithinElements">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeMustNotContainEmptyStatements">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeMustNotContainMultipleStatementsOnOneLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="BlockStatementsMustNotContainEmbeddedComments">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="BlockStatementsMustNotContainEmbeddedRegions">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UseReadableConditions">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UseStringEmptyForEmptyStrings">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UseShorthandForNullableTypes">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+      <Rules>
+        <Rule Name="ElementsMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PartialElementsMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="EnumerationItemsMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationMustContainValidXml">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationMustHaveSummary">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PartialElementDocumentationMustHaveSummary">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationMustHaveSummaryText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PartialElementDocumentationMustHaveSummaryText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationMustNotHaveDefaultSummary">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PropertyDocumentationMustHaveValue">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PropertyDocumentationMustHaveValueText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementParametersMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementParameterDocumentationMustMatchElementParameters">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementParameterDocumentationMustDeclareParameterName">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementParameterDocumentationMustHaveText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementReturnValueMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementReturnValueDocumentationMustHaveText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="VoidReturnValueMustNotBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="GenericTypeParametersMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="GenericTypeParametersMustBeDocumentedPartialClass">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="GenericTypeParameterDocumentationMustMatchTypeParameters">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="GenericTypeParameterDocumentationMustDeclareParameterName">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="GenericTypeParameterDocumentationMustHaveText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PropertySummaryDocumentationMustMatchAccessors">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PropertySummaryDocumentationMustOmitSetAccessorWithRestrictedAccess">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationMustNotBeCopiedAndPasted">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SingleLineCommentsMustNotUseDocumentationStyleSlashes">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationTextMustNotBeEmpty">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationTextMustBeginWithACapitalLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationTextMustEndWithAPeriod">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationTextMustContainWhitespace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationMustMeetCharacterPercentage">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationTextMustMeetMinimumCharacterLength">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ConstructorSummaryDocumentationMustBeginWithStandardText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DestructorSummaryDocumentationMustBeginWithStandardText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationHeadersMustNotContainBlankLines">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="IncludedDocumentationXPathDoesNotExist">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="IncludeNodeDoesNotContainValidFileAndPath">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="InheritDocMustBeUsedWithInheritingClass">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationMustBeSpelledCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileMustHaveHeader">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustShowCopyright">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustHaveCopyrightText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustContainFileName">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderFileNameDocumentationMustMatchFileName">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustHaveSummary">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustHaveValidCompanyText">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderFileNameDocumentationMustMatchTypeName">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <StringProperty Name="CompanyName">Innerspace</StringProperty>
+        <StringProperty Name="Copyright">Innerspace GmbH</StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.LayoutRules">
+      <Rules>
+        <Rule Name="ClosingCurlyBracketMustBeFollowedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CurlyBracketsForMultiLineStatementsMustNotShareLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="StatementMustNotBeOnSingleLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementMustNotBeOnSingleLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CurlyBracketsMustNotBeOmitted">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="AllAccessorsMustBeMultiLineOrSingleLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningCurlyBracketsMustNotBeFollowedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationHeadersMustNotBeFollowedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeMustNotContainMultipleBlankLinesInARow">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ClosingCurlyBracketsMustNotBePrecededByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="OpeningCurlyBracketsMustNotBePrecededByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ChainedStatementBlocksMustNotBePrecededByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="WhileDoFooterMustNotBePrecededByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SingleLineCommentsMustNotBeFollowedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationHeaderMustBePrecededByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SingleLineCommentMustBePrecededByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementsMustBeSeparatedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeMustNotContainBlankLinesAtStartOfFile">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CodeMustNotContainBlankLinesAtEndOfFile">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.OrderingRules">
+      <Rules>
+        <Rule Name="UsingDirectivesMustBePlacedWithinNamespace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementsMustAppearInTheCorrectOrder">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementsMustBeOrderedByAccess">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ConstantsMustAppearBeforeFields">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="StaticElementsMustAppearBeforeInstanceElements">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DeclarationKeywordsMustFollowOrder">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ProtectedMustComeBeforeInternal">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PropertyAccessorsMustFollowOrder">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="EventAccessorsMustFollowOrder">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="StaticReadonlyElementsMustAppearBeforeStaticNonReadonlyElements">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="InstanceReadonlyElementsMustAppearBeforeInstanceNonReadonlyElements">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UsingAliasDirectivesMustBePlacedAfterOtherUsingDirectives">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UsingAliasDirectivesMustBeOrderedAlphabeticallyByAliasName">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UsingStaticDirectivesMustBePlacedAtTheCorrectLocation">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
