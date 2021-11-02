@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using Blue.Json;
 using UnityEngine;
@@ -9,7 +10,7 @@ namespace PackageHelper.Editor.PackageHandler
         private readonly string packageAddress;
         private readonly JsonDictionary package;
 
-        public string PackageName => package.Get<string>("");
+        public string PackageName => package.Get<string>(string.Empty);
         public string PackageVersion => package.Get<string>("version");
 
         public PackageReader(string packageJson)
