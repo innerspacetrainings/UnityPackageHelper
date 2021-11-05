@@ -1,39 +1,39 @@
 using System.IO;
 using Blue.Json;
 using NUnit.Framework;
-using PackageHelper.Editor.PackageHandler;
+using PackageHelper.Editor;
 using UnityEditor;
 
 namespace PackageHelper.Editor.Tests
 {
     public class VersioningTests
     {
-        private PackageReader packageReader;
+        private PackageDataManager packageDataManager;
 
         [SetUp]
         public void Setup()
         {
-            packageReader = new PackageReader(VersionManager.PackageJson);
+            packageDataManager = new PackageDataManager(VersionManager.PackageJsonPath);
         }
 
         [Test]
         public void VersionsShouldBeTheSame()
         {
-            Assert.AreEqual(packageReader.PackageVersion, PlayerSettings.bundleVersion,
+            Assert.AreEqual(packageDataManager.PackageVersion, PlayerSettings.bundleVersion,
                 "Package's version and project setting version must be the same");
         }
 
         [Test]
         public void UnityVersionShouldBeCorrectlySetup()
         {
-            Assert.AreEqual(PackageReader.GetUnityVersion(), packageReader.GetPackageUnityVersion(),
+            Assert.AreEqual(PackageDataManager.GetUnityVersion(), packageDataManager.GetPackageUnityVersion(),
                 "Package's minimum unity version and project current unity version must be the same");
         }
 
         [Test]
         public void DependencyVersionsShouldMatch()
         {
-            var packageContent = File.ReadAllText(VersionManager.PackageJson);
+            var packageContent = File.ReadAllText(VersionManager.PackageJsonPath);
             var requiredPackages = BlueParser.Json.Parse(packageContent).Get<JsonDictionary>("dependencies");
             var manifestContent = File.ReadAllText("Packages/manifest.json");
             var installedPackages = BlueParser.Json.Parse(manifestContent).Get<JsonDictionary>("dependencies");

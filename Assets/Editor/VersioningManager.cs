@@ -1,4 +1,3 @@
-using PackageHelper.Editor.PackageHandler;
 using UnityEditor;
 using UnityEngine;
 
@@ -6,8 +5,8 @@ namespace PackageHelper.Editor
 {
     public class VersionManager : EditorWindow
     {
-        internal static string PackageJson => "Assets/Package/package.json";
-        private PackageReader reader;
+        internal static string PackageJsonPath => "Assets/Package/package.json";
+        private PackageDataManager packageDataManager;
         private string currentVersion;
 
         [MenuItem("Innerspace/Version Manager")]
@@ -18,10 +17,10 @@ namespace PackageHelper.Editor
 
         private void OnGUI()
         {
-            if (reader == null)
+            if (packageDataManager == null)
             {
-                reader = new PackageReader(PackageJson);
-                currentVersion = reader.PackageVersion;
+                packageDataManager = new PackageDataManager(PackageJsonPath);
+                currentVersion = packageDataManager.PackageVersion;
             }
 
             DrawVersionField();
@@ -51,19 +50,19 @@ namespace PackageHelper.Editor
 
         public void DrawVersionField()
         {
-            bool versionIsDifferent = currentVersion != reader.PackageVersion;
+            bool versionIsDifferent = currentVersion != packageDataManager.PackageVersion;
             GUILayout.Label("Version Manager", EditorStyles.boldLabel);
             currentVersion = EditorGUILayout.TextField("Package Version", currentVersion);
 
             EditorGUI.BeginDisabledGroup(true);
             EditorGUILayout.TextField("Project Version", PlayerSettings.bundleVersion);
-            EditorGUILayout.TextField("Package version", reader.PackageVersion);
+            EditorGUILayout.TextField("Package version", packageDataManager.PackageVersion);
             EditorGUI.EndDisabledGroup();
 
             EditorGUI.BeginDisabledGroup(!versionIsDifferent);
             if (GUILayout.Button("Save Version"))
             {
-                reader.UpdateVersion(currentVersion).Persist();
+                packageDataManager.UpdateVersion(currentVersion).Persist();
                 PlayerSettings.bundleVersion = currentVersion;
                 AssetDatabase.SaveAssets();
             }
