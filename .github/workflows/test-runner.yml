@@ -1,6 +1,9 @@
 ﻿name: Test runner
 
-on: [ pull_request ]
+on:
+  push:
+    branches:
+      - develop
 
 env:
   UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}

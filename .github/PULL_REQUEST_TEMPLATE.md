@@ -1,5 +1,3 @@
-# [Ticket number](https://innerspace.atlassian.net/browse/XX-XXX)
-
 ## System changed
 - List your changes here
 
