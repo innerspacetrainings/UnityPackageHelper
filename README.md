@@ -25,9 +25,9 @@ Small utility to incrementing the version of package.
 ### Adding the package to the Unity project manifest
 
 * Navigate to the `Packages` directory of your project.
-* Adjust the [project manifest file][Project-Manifest] `manifest.json` in a text editor.
+* Adjust the project manifest file `manifest.json` in a text editor.
     * Ensure `https://package.openupm.com` is part of `scopedRegistries`.
-        * Ensure `eu.innerspace` is part of `scopes`.
+        * Ensure `at.innerspace` is part of `scopes`.
     * Add `"eu.innerspace.packagehelper": "https://github.com/innerspacetrainings/PackageHelper.git?path=Assets/Package"` to `dependencies`.
 
   ```json
