@@ -41,7 +41,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "2.0.0",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -80,15 +80,6 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
-      "url": "https://package.openupm.com"
-    },
-    "eu.innerspace.unityjsonwrapper": {
-      "version": "0.1.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.0"
-      },
       "url": "https://package.openupm.com"
     },
     "com.unity.modules.imgui": {

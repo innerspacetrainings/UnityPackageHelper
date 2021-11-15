@@ -68,8 +68,6 @@ namespace PackageHelper.Editor
             }
 
             EditorGUI.EndDisabledGroup();
-
-            EditorGUILayout.EndFadeGroup();
         }
     }
 }

@@ -5,8 +5,7 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "DTValidator",
-        "DTValidator.Editor",
-        "UnityJsonWrapper"
+        "DTValidator.Editor"
     ],
     "includePlatforms": [
         "Editor"
@@ -15,7 +14,8 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "nunit.framework.dll"
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [

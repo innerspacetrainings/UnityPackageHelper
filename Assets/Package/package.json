@@ -1,6 +1,6 @@
 {
   "name": "eu.innerspace.packagehelper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "PackageHelper",
   "description": "Package helper scripts",
   "unity": "2020.3",
@@ -10,6 +10,7 @@
     "helper"
   ],
   "dependencies": {
-    "at.innerspace.dtvalidator": "1.0.6"
+    "at.innerspace.dtvalidator": "1.0.6",
+    "com.unity.nuget.newtonsoft-json": "2.0.0"
   }
 }

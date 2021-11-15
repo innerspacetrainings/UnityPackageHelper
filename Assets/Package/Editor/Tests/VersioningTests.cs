@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using System.IO;
-using Blue.Json;
+using System.Linq;
+using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using PackageHelper.Editor;
 using UnityEditor;
@@ -34,18 +36,20 @@ namespace PackageHelper.Editor.Tests
         public void DependencyVersionsShouldMatch()
         {
             var packageContent = File.ReadAllText(VersionManager.PackageJsonPath);
-            var requiredPackages = BlueParser.Json.Parse(packageContent).Get<JsonDictionary>("dependencies");
+            var requiredPackages = JObject.Parse(packageContent).GetValue("dependencies")
+                ?.ToObject<Dictionary<string, object>>();
             var manifestContent = File.ReadAllText("Packages/manifest.json");
-            var installedPackages = BlueParser.Json.Parse(manifestContent).Get<JsonDictionary>("dependencies");
-
+            var installedPackages = JObject.Parse(manifestContent).GetValue("dependencies")
+                ?.ToObject<Dictionary<string, object>>();
             foreach (var package in requiredPackages)
             {
-                Assert.IsTrue(installedPackages.ContainsKey(package.Key),
+                Assert.IsTrue(installedPackages?.ContainsKey(package.Key),
                     $"Package ${package.Key} is not installed in the project");
-                Assert.AreEqual(package.Value, installedPackages.Get<string>(package.Key),
+                Assert.AreEqual(package.Value, installedPackages?[package.Key],
                     $"Versions doesn't match in requirement: {package.Key}.\n" +
                     "Be sure that the project uses the same required version");
             }
         }
     }
 }
+

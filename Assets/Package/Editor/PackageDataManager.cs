@@ -1,5 +1,6 @@
 using System.IO;
-using Blue.Json;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using UnityEngine;
 
 namespace PackageHelper.Editor
@@ -7,16 +8,16 @@ namespace PackageHelper.Editor
     public class PackageDataManager
     {
         private readonly string jsonPath;
-        private readonly JsonDictionary packageData;
+        private readonly JObject packageData;
 
-        public string PackageName => packageData.Get<string>(string.Empty);
-        public string PackageVersion => packageData.Get<string>("version");
+        public string PackageName => packageData.GetValue("name")?.ToString();
+        public string PackageVersion => packageData.GetValue("version")?.ToString();
 
         public PackageDataManager(string jsonPath)
         {
             this.jsonPath = jsonPath;
             var packageContent = File.ReadAllText(jsonPath);
-            packageData = BlueParser.Json.Parse(packageContent);
+            packageData = JObject.Parse(packageContent);
         }
 
         public PackageDataManager UpdateVersion(string newVersion)
@@ -30,14 +31,14 @@ namespace PackageHelper.Editor
 
         public void Persist()
         {
-            File.WriteAllText(jsonPath, BlueParser.Json.Serialize(packageData, true));
+            File.WriteAllText(jsonPath, JsonConvert.SerializeObject(packageData, Formatting.Indented));
         }
 
         /// <summary> Returns the unity version in the package.json </summary>
         /// <returns></returns>
         public (string version, string release) GetPackageUnityVersion()
         {
-            return (packageData.Get<string>("unity"), packageData.Get<string>("unityRelease"));
+            return (packageData.GetValue("unity")?.ToString(), packageData.GetValue("unityRelease")?.ToString());
         }
 
         /// <summary> Returns the unity version that the project is running on </summary>
