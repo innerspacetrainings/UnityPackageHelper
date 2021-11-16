@@ -1,6 +1,6 @@
 {
-    "name": "PackageHelper",
-    "rootNamespace": "",
+    "name": "UnityPackageHelper",
+    "rootNamespace": "UnityPackageHelper",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",

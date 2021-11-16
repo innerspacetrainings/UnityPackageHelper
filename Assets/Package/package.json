@@ -1,8 +1,8 @@
 {
-  "name": "eu.innerspace.packagehelper",
-  "version": "0.2.0",
-  "displayName": "PackageHelper",
-  "description": "Package helper scripts",
+  "name": "eu.innerspace.unitypackagehelper",
+  "version": "0.3.0",
+  "displayName": "UnityPackageHelper",
+  "description": "Package version manager and unit tests",
   "unity": "2020.3",
   "unityRelease": "15f2",
   "keywords": [

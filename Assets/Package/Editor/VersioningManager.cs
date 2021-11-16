@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace PackageHelper.Editor
+namespace UnityPackageHelper.Editor
 {
     public class VersionManager : EditorWindow
     {

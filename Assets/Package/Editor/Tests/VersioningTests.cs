@@ -1,12 +1,10 @@
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
-using PackageHelper.Editor;
 using UnityEditor;
 
-namespace PackageHelper.Editor.Tests
+namespace UnityPackageHelper.Editor.Tests
 {
     public class VersioningTests
     {

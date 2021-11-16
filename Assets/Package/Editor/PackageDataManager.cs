@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 
-namespace PackageHelper.Editor
+namespace UnityPackageHelper.Editor
 {
     public class PackageDataManager
     {

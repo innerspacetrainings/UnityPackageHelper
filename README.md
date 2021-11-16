@@ -18,7 +18,7 @@ Small utility to incrementing the version of package.
 - Unit tests can enabled by adding following line to testables.
   ```Json
   "testables": [
-    "eu.innerspace.packagehelper"
+    "eu.innerspace.unitypackagehelper"
   ],
   ```
 
@@ -30,7 +30,7 @@ Small utility to incrementing the version of package.
 * Adjust the project manifest file `manifest.json` in a text editor.
     * Ensure `https://package.openupm.com` is part of `scopedRegistries`.
         * Ensure `at.innerspace` is part of `scopes`.
-    * Add `"eu.innerspace.packagehelper": "https://github.com/innerspacetrainings/PackageHelper.git?path=Assets/Package"` to `dependencies`.
+    * Add `"eu.innerspace.unitypackagehelper": "https://github.com/innerspacetrainings/UnityPackageHelper.git?path=Assets/Package"` to `dependencies`.
 
   ```json
   {
