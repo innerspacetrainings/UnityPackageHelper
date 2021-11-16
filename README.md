@@ -1,8 +1,8 @@
-# PackageHelper
+# UnityPackageHelper
 
-[![Test runner](https://github.com/innerspacetrainings/PackageHelper/actions/workflows/test-runner.yml/badge.svg?branch=develop)](https://github.com/innerspacetrainings/PackageHelper/actions/workflows/test-runner.yml)
+[![Test runner](https://github.com/innerspacetrainings/UnityPackageHelper/actions/workflows/test-runner.yml/badge.svg?branch=develop)](https://github.com/innerspacetrainings/UnityPackageHelper/actions/workflows/test-runner.yml)
 
-Includes version manager for package, DTValidator test and package validation tests.
+Includes version manager for package, [DTValidator](https://github.com/innerspacetrainings/DTValidator) test and package validation tests.
 
 > Note: This package will only work if [Package.json](https://docs.unity3d.com/Manual/upm-manifestPkg.html) is present in `Assets/Package`
 
@@ -15,7 +15,7 @@ Small utility to incrementing the version of package.
 ## Usage
 
 - If you want to change the version, you can open the utility window at `Innerspace > Version Manager`.
-- [DTValidator](https://github.com/innerspacetrainings/DTValidator) test are included, you can enable them in test runner by adding following line to testables.
+- Unit tests can enabled by adding following line to testables.
   ```Json
   "testables": [
     "eu.innerspace.packagehelper"
