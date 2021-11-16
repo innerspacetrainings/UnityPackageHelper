@@ -4,7 +4,9 @@
 
 Includes version manager for package, DTValidator test and package validation tests.
 
-# Unity Assemblies Debugger
+> Note: This package will only work if [Package.json](https://docs.unity3d.com/Manual/upm-manifestPkg.html) is present in `Assets/Package`
+
+# Version Manager
 
 Small utility to incrementing the version of package.
 
