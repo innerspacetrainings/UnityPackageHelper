@@ -50,7 +50,7 @@ namespace UnityPackageHelper.Editor
 
         public void DrawVersionField()
         {
-            bool versionIsDifferent = currentVersion != packageDataManager.PackageVersion;
+            var versionIsDifferent = currentVersion != packageDataManager.PackageVersion;
             GUILayout.Label("Version Manager", EditorStyles.boldLabel);
             currentVersion = EditorGUILayout.TextField("Package Version", currentVersion);
 
