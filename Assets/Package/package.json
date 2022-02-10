@@ -1,6 +1,6 @@
 {
   "name": "eu.innerspace.unitypackagehelper",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "displayName": "UnityPackageHelper",
   "description": "Package version manager and unit tests",
   "unity": "2020.3",
